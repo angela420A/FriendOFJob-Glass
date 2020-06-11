@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    /* background-color: black; */
+}
+
+h1, h2, h3, h4, h5, h6, p, label, a, input, button{
+    font-family: Microsoft JhengHei !important;
+}
+
+/* .mainlayout-form{
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    height: 100px;
+} */
+
+.m-header-nav{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.m-header-logo{
+    margin-left: 40px;
+}
+
+.m-header-logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.m-header-logo a{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.mainlayout-body{
+    display: block;
+    /* height: calc(100vh - 75px); */
+}
+
+.m-h-i-ul-item a{
+    font-weight: 800;
+}
+
+.m-h-i-ul-item a::after{
+    display: none;
+}
+ 
+.m-header-input{
+    justify-content: center;
+}
+
+.m-h-input-language a{
+    font-weight: 800;
+}
+
+.dropdown-menu{
+    background-color: #5E5E5E;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.mainlayout-footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 30px 30px;
+    display: block;
+    box-sizing: border-box;
+    height: 157.6px;
+}
+
+.m-footer-text{
+    text-align: center;
+    color: gray;
+    font-weight: 800;
+}
+
+.m-footer-text h3{
+    font-size: 20px;
+}
+
+.m-footer-text p{
+    font-size: 15px;
+}
+
+.m-footer-icon{
+    text-align: center;
+}
+
+.m-h-link-icon a{
+    margin: 0px 5px;
+}
+
+.m-h-l-icon-facebook i{
+    color: #2D88FF;
+    font-size: 25px;
+}
+
+.m-h-l-icon-youtube i{
+    color: #ff0000;
+    font-size: 25px;
+}
+
+.m-h-l-icon-twitter i{
+    color: #1da1f2;
+    font-size: 25px;
+}
+
+@media (min-width: 992px){
+
+    .m-header-input hr{
+        position: relative;
+        height: 25px;
+        border: 1px solid black;
+        background-color: black;
+    }
+
+    .m-header-link{
+        margin-left: 10px;
+    }
+}
