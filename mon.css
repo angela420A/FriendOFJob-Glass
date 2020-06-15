@@ -84,14 +84,14 @@ body{
   padding:  1em;
   line-height: 1.4;
   /* background-color: #212529; */
-  background-color: black;
+  background-color: #202020;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: 20px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 250px;
 }
 .card:hover {
@@ -215,9 +215,13 @@ ul.mtree {
   color: white;
   font-weight:bold;
 }
+.card-input{
+  background-color: black;
+  height: 100px;
+}
 .card-text{
-  padding: 0;
-  margin-bottom: 10px;
+  /* padding: 0;
+  margin-bottom: 10px; */
 }
 .btn-primary{
   background-color: #ffcc33;

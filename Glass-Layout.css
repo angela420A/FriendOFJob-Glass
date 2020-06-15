@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6, p, label, a, input, button{
     display: block;
     box-sizing: border-box;
     height: 157.6px;
+    margin-top: 50px;
 }
 
 .m-footer-text{
@@ -113,21 +114,23 @@ h1, h2, h3, h4, h5, h6, p, label, a, input, button{
 
 .m-h-link-icon a{
     margin: 0px 5px;
+    font-size: 25px;
+    color: white;
 }
 
-.m-h-l-icon-facebook i{
+.m-h-l-icon-facebook i:hover{
     color: #2D88FF;
-    font-size: 25px;
+    transition: .5s;
 }
 
-.m-h-l-icon-youtube i{
+.m-h-l-icon-youtube i:hover{
     color: #ff0000;
-    font-size: 25px;
+    transition: .5s;
 }
 
-.m-h-l-icon-twitter i{
+.m-h-l-icon-twitter i:hover{
     color: #1da1f2;
-    font-size: 25px;
+    transition: .5s;
 }
 
 @media (min-width: 992px){
