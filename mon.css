@@ -217,6 +217,7 @@ ul.mtree {
 .card-input{
   background-color: black;
   height: 100px;
+  border: none;
 }
 .card-text{
   /* padding: 0;
