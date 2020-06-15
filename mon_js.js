@@ -161,6 +161,7 @@
       $(this).toggleClass('active'); 
     });
   });
+  
 // 幻燈片
   $('.carousel').carousel({
     interval: 3000
